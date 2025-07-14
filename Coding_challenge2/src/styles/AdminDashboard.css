@@ -1,0 +1,92 @@
+.admin-dashboard {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.task-form-section {
+  background: #f1f8e9;
+  padding: 20px;
+  border: 1px solid #c5e1a5;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form input,
+.task-form select {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+}
+
+.add-task-btn {
+  background-color: #43a047;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-task-btn:hover {
+  background-color: #388e3c;
+}
+
+.task-card {
+  background-color: #fbe9e7;
+  border-left: 5px solid #e64a19;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.task-card h4 {
+  margin: 0 0 8px;
+  color: #d84315;
+}
+
+.task-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.status-select {
+  margin-top: 10px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.delete-btn {
+  background-color: #c62828;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}

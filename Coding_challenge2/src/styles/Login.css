@@ -1,0 +1,39 @@
+.login-wrapper {
+  height: 100vh;
+  background: linear-gradient(135deg, #f3b4f3, #bbfdaa); /* Blue-gray gradient */
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  color: white;
+}
+
+.login-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1a0e02; /* deep amber */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.login-btn {
+  width: 100%;
+  background: linear-gradient(45deg, #594932, #5a3a14);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-btn:hover {
+  background: linear-gradient(45deg, #5c3571, #5a3b69);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,33 @@
+.register-wrapper {
+  height: 100vh;
+  background: linear-gradient(135deg, #e7ebb3, #e7b0e7, #a55279);
+}
+
+.register-card {
+  width: 100%;
+  max-width: 420px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  color: white;
+}
+.register-heading {
+  color: #4f380d; /* soft golden yellow */
+  font-weight: bold;
+}
+.register-btn {
+  background-color: #6d6765;   /* coral */
+  color: white;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-btn:hover {
+  background-color: #7966b1;  /* darker coral */
+  transform: translateY(-2px);
+}
