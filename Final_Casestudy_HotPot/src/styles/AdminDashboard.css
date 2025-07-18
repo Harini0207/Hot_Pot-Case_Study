@@ -1,0 +1,157 @@
+/* Container */
+.admin-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  padding: 20px;
+  color: #fff;
+  border-radius: 8px;
+}
+.admin-header .highlight {
+  font-weight: bold;
+  color: #FFEB3B;
+}
+
+/* Sections */
+.admin-section {
+  background: #FFF;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.admin-section.green { border-left: 8px solid #4CAF50; }
+.admin-section.yellow { border-left: 8px solid #FFEB3B; }
+.admin-section.orange { border-left: 8px solid #FF9800; }
+
+/* Section Titles */
+.admin-section h3 {
+  margin-top: 0;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Row grouping */
+.admin-section .row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Form Elements */
+.admin-section input,
+.admin-section select {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+.admin-section input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+/* Labels */
+.admin-section label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Buttons */
+.admin-section button {
+  background: #bc370e;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.admin-section button:hover {
+  background: #E64A19;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+thead {
+  background: #455A64;
+  color: #fff;
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background: #f7f7f7;
+}
+
+/* Delete Button */
+button.del {
+  background: #D32F2F;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.del:hover {
+  background: #B71C1C;
+}
+
+/* Footer */
+.admin-footer {
+  text-align: center;
+  margin: 30px 0;
+}
+.logout {
+  background: #607D8B;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.logout:hover {
+  background: #455A64;
+}
+
+/* Inline Checkbox Group */
+.inline-checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.inline-checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: #444;
+  font-size: 1rem;
+}
+
+/* Optional Enhancements */
+.menu-form-section input,
+.menu-form-section select {
+  margin-bottom: 10px;
+}

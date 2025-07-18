@@ -1,0 +1,79 @@
+/* src/styles/UserDashboard.css */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.dashboard {
+  background-color: #fffaf0;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text-maroon {
+  color: maroon;
+}
+
+.card-title {
+  color: #8b4513;
+  font-weight: bold;
+}
+
+.card-text b {
+  color: #cc5500;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  transition: 0.3s ease;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+
+.filter-box {
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffeeba;
+}
+
+.filter-select {
+  border: 2px solid #ffcc80;
+  background-color: #fff8e1;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: 500;
+  color: #5d4037;
+}
+
+.btn-filter {
+  background-color: #ff7043;
+  color: white;
+  padding: 8px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-filter:hover {
+  background-color: #e64a19;
+}

@@ -1,0 +1,73 @@
+/* AddMenu.css */
+
+.add-menu-form {
+  background-color: #fff5f5;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(128, 0, 0, 0.2); /* maroonish shadow */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-menu-form h2 {
+  color: #800000;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.add-menu-form .form-label {
+  font-weight: 600;
+  color: #4a0000;
+}
+
+.add-menu-form .form-control,
+.add-menu-form .form-select {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.add-menu-form .form-control:focus,
+.add-menu-form .form-select:focus {
+  border-color: #800000;
+  box-shadow: 0 0 6px rgba(128, 0, 0, 0.3);
+}
+
+.add-menu-form button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.add-menu-form .btn-success {
+  background-color: #008000; /* Green */
+  color: #fff;
+}
+
+.add-menu-form .btn-success:hover {
+  background-color: #006400;
+}
+
+.add-menu-form .btn-secondary {
+  background-color: #e4e4e4;
+  color: #333;
+}
+
+.add-menu-form .btn-secondary:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .add-menu-form {
+    padding: 20px;
+  }
+
+  .add-menu-form h2 {
+    font-size: 1.5rem;
+  }
+}

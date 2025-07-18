@@ -1,0 +1,113 @@
+/* src/styles/Home.css */
+
+.home-body {
+  background: linear-gradient(180deg, #fff7e6, #ffe9cc);
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.floating-img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 0.4;
+  z-index: 0;
+  animation: floatUp 15s linear infinite;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+.img1 { left: 5%; animation-delay: 0s; }
+.img2 { left: 15%; animation-delay: 2s; }
+.img3 { left: 25%; animation-delay: 4s; }
+.img4 { left: 35%; animation-delay: 1s; }
+.img5 { left: 45%; animation-delay: 3s; }
+.img6 { left: 55%; animation-delay: 5s; }
+.img7 { left: 65%; animation-delay: 2.5s; }
+.img8 { left: 75%; animation-delay: 6s; }
+.img9 { left: 85%; animation-delay: 3.5s; }
+.img10 { left: 95%; animation-delay: 1.5s; }
+.img11 { left: 50%; animation-delay: 0.5s; }
+.img12 { left: 30%; animation-delay: 7s; }
+
+.home-content {
+  position: relative;
+  z-index: 1;
+  margin-top: 4rem;
+}
+
+.food-banner {
+  margin-bottom: 60px; /* ✅ space before footer */
+}
+
+footer.footer {
+  background-color: #d2b48c; /* ✅ light brown (tan) */
+  color: #2d2d2d;
+  padding: 40px 20px 20px;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+  gap: 2rem;
+}
+
+.footer-about,
+.footer-contact,
+.footer-links {
+  flex: 1 1 250px;
+}
+
+.footer-about h4,
+.footer-contact h4,
+.footer-links h4 {
+  color: #800000; /* maroon titles */
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #2d2d2d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #c0392b; /* red highlight on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  font-size: 0.9rem;
+}

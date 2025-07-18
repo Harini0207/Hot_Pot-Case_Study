@@ -1,0 +1,85 @@
+/* src/styles/OrderDetails.css */
+
+.order-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #eadede;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.order-title {
+  text-align: center;
+  color: #456646;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.order-info p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.order-items-title {
+  margin-top: 25px;
+  font-weight: 600;
+  color: #514028;
+}
+
+.order-items-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.order-item {
+  background: #f9e8e8;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.btn-back {
+  background-color: #607D8B;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: #455A64;
+}
+
+.order-loading,
+.order-error {
+  text-align: center;
+  color: #D32F2F;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+.btn-cancel {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cancel:hover {
+  background-color: #c9302c;
+}

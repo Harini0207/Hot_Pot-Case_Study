@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+body.register-bg {
+  background-image: url('../images/food-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FORM CONTAINER */
+.register-form {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 750px;
+  margin: 60px auto;
+  color: #2c2c2c;
+}
+
+.text-maroon {
+  color: maroon;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+}
+
+/* INPUT FIELDS */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #e67e22;
+  font-size: 1rem;
+  padding: 10px 15px;
+  color: #2c2c2c;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.form-control::placeholder {
+  color: #444;
+  opacity: 1;
+}
+
+.form-control:focus {
+  border-color: #27ae60;
+  box-shadow: 0 0 6px rgba(39, 174, 96, 0.4);
+}
+
+/* BUTTON FIX */
+.btn-custom {
+  background-color: #ff6b6b !important;
+  color: white !important;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: #c0392b !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* PASSWORD STRENGTH INDICATOR */
+.password-strength {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+}
+
+.password-strength.weak {
+  background-color: #e74c3c;
+}
+.password-strength.fair {
+  background-color: #e67e22;
+}
+.password-strength.good {
+  background-color: #f1c40f;
+  color: black;
+}
+.password-strength.strong {
+  background-color: #27ae60;
+}
+
+/* RADIO SECTION */
+input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+label,
+input[type="radio"] {
+  color: #2c2c2c !important;
+  font-weight: 500;
+}

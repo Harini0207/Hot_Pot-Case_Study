@@ -1,0 +1,24 @@
+.restaurant-dashboard {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.restaurant-title {
+  color: #8B0000;
+  font-weight: bold;
+}
+
+.section-title {
+  color: #D2691E;
+  margin-bottom: 15px;
+}
+
+.menu-section .table td,
+.order-section .table td,
+.review-section .table td {
+  vertical-align: middle;
+}
+
+.review-section .table td:nth-child(4) {
+  font-size: 18px;
+  color: #FFD700;
+}
